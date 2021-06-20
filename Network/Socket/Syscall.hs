@@ -28,6 +28,7 @@ import Network.Socket.Imports
 import Network.Socket.Internal
 import Network.Socket.Options
 import Network.Socket.Types
+import Prelude hiding (elem)
 
 -- ----------------------------------------------------------------------------
 -- On Windows, our sockets are not put in non-blocking mode (non-blocking

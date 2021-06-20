@@ -9,6 +9,7 @@ module Network.Socket.Posix.IOVec
 import Foreign.Marshal.Array (allocaArray)
 
 import Network.Socket.Imports
+import Prelude hiding (length)
 
 #include <sys/types.h>
 #include <sys/uio.h>

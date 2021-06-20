@@ -16,6 +16,7 @@ import Network.Socket.Imports
 import Network.Socket.Internal
 import Network.Socket.Syscall
 import Network.Socket.Types
+import Prelude hiding (concat, elem, foldr, foldr1, minimum)
 
 -----------------------------------------------------------------------------
 

@@ -17,6 +17,7 @@ import           Network.Socket.Imports
 import           Network.Socket.Internal
 import           Network.Socket.Posix.IOVec    (IOVec (IOVec))
 import           Network.Socket.Types
+import           Prelude hiding (length)
 
 -- -----------------------------------------------------------------------------
 -- Sending

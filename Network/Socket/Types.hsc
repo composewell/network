@@ -102,6 +102,7 @@ import Network.Socket.Imports
 ----- readshow module import
 import Network.Socket.ReadShow
 
+import Prelude hiding (length)
 
 -----------------------------------------------------------------------------
 

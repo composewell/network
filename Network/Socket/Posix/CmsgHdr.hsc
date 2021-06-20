@@ -20,6 +20,7 @@ import Network.Socket.Imports
 import Network.Socket.Posix.Cmsg
 import Network.Socket.Posix.MsgHdr
 import Network.Socket.Types
+import Prelude hiding (sum)
 
 data CmsgHdr = CmsgHdr {
     cmsgHdrLen   :: !CInt
